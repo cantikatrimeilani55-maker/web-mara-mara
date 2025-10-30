@@ -1,20 +1,27 @@
 body {
-   background-color: #FFCCCC; /* Warna pink muda */
-   font-family: Times New Romance, sans-serif; /* jenis huruf yang mudah di baca */
-   color:  #191970; /* warna teks utama (Biru gelap) */
+    background-color: #FFCCCC; 
+    /* SALAH: Times New Romance */
+    font-family: "Times New Roman", sans-serif; 
+    color: #191970; 
 }
 
 .kartu-profile {
-   width: 300px;
-   margin: 50px auto; /* 50px jarak atas/bawah, auto menengah kiri/kanan */
-   padding: 20px;
-   background: 20px;
-   border-radius: 15px;
-   box-shadow: 0 4px 8px rgba(0,0, 0, 0.1); /* Efek bayangan */
-   text-align: center; /*
-}
+    width: 300px;
+    margin: 50px auto; 
+    padding: 20px;
+    
+    /* SALAH: background: 20px; */
+    /* Ganti jadi warna, misal putih: */
+    background-color: #FFFFFF; 
+    
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.1); 
+    text-align: center;
+} /* <-- Error 4: Kurung tutup ini HILANG tadi */
 
 
 .kartu-profile img {
-    witdth: 150px;
+    /* SALAH: witdth: 150px; */
+    width: 150px;
     border-radius: 50%; 
+} /* <-- Error 4: Kurung tutup ini HILANG tadi */
